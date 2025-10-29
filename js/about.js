@@ -27,11 +27,11 @@ function parseTweets(runkeeper_tweets) {
 		}
 		if (tweet_array[i].source == "completed_event"){
 			completedEvents += 1;
-		} else if (tweet_array[i].source == "Live Event") {
+		} else if (tweet_array[i].source == "live_event") {
 			liveEvents += 1;
-		} else if (tweet_array[i].source == "Achievement"){
+		} else if (tweet_array[i].source == "achievement"){
 			achievements += 1;
-		} else if (tweet_array[i].source == "Miscellaneous") {
+		} else if (tweet_array[i].source == "miscellanous") {
 			miscellaneous += 1;
 		}
 
